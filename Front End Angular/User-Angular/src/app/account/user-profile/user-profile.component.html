@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="user">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+<div class="user-profile">
+    <div class="username">Hello {{firstName}} {{lastName}}</div>
+  <div class="bio">
+  	Senior UI Designer
+  </div>
+    <div class="description">
+      I use to design websites and applications
+      for the web.
+  </div>
+  <ul class="data">
+    <li>
+      <span class="entypo-heart"> 127</span>
+    </li>
+    <li>
+      <span class="entypo-eye"> 853</span>
+    </li>
+    <li>
+      <span class="entypo-user"> 311</span>
+    </li>
+ </ul>
+</div>
+  
+
